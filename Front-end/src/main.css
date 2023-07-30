@@ -1,0 +1,44 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+/* //   font-family: 'Abril Fatface', cursive; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #78bbff;
+}
+
+body {
+  background-color: aliceblue;
+  width: 100%;
+  position: relative;
+}
+
+.background-p {
+  background: radial-gradient(
+      circle at bottom left,
+      #b4feff 35%,
+      transparent 36%
+    ),
+    radial-gradient(circle at top right, #b4c3ff 35%, transparent 36%),
+    radial-gradient(circle at center, #96ffc5 15%, transparent 16%);
+  background-size: 3em 3em;
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+.font-ariba{
+    font-family: 'Abril Fatface', cursive;
+}

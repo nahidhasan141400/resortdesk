@@ -1,0 +1,19 @@
+{
+  "name": "hotel_management",
+  "version": "1.0.0",
+  "description": "hotel_management use node and react mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hotel_management"
+  ],
+  "author": "nahid hasan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.5.2"
+  }
+}
