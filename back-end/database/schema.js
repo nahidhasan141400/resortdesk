@@ -7,6 +7,7 @@ class Schema {
         type: object[e].type,
         req: object[e].req ? true : false,
         defaults: object[e].defaults ? object[e].defaults : "",
+        unique: object[e].unique ? true : false,
       };
     });
   }

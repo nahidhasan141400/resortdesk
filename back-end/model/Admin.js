@@ -5,7 +5,27 @@ const AdminSchema = new Schema({
     username:{
         type:'TEXT(255)',
         req:true,
-        defaults:"nahid"
+        unique:true
+    },
+    email:{
+        type:'TEXT(255)',
+        req:true,
+        unique:true
+    },
+    phone:{
+        type:'TEXT(255)',
+        req:true,
+        unique:true
+    },
+    photo:{
+        type:'TEXT(255)',
+        req:false,
+        unique:false
+    },
+    details:{
+        type:'TEXT(255)',
+        req:false,
+        unique:false
     },
     status:{
         type:"INT(255)",
