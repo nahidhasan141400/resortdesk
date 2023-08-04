@@ -17,6 +17,6 @@ This System built using React for the front-end, Node.js for the back-end, and M
 
 ------------
 
-#system design 
+# system design 
 
 ![](sd.jpg)
